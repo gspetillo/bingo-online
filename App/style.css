@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color: #0e4597;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
 a {
@@ -83,8 +84,7 @@ a {
   width: 80px;
   height: 80px;
   font-size: 32px;
-  /* box-shadow:
-    0 0 30px 10px rgb(27, 131, 201); */
+  color: #000;
 }
 
 #drawButton {
