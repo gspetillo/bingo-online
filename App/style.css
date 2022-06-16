@@ -5,6 +5,10 @@
   background-color: #0e4597;
 }
 
+a {
+  text-decoration: none;
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -14,10 +18,23 @@
   text-align: center;
 }
 
+#header {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#logo {
+  width: 75px;
+  border: 2px solid #58d3e9;
+  border-radius: 10px;
+}
+
 #title {
   font-size: 54px;
   color: #fff;
-  margin: 20px auto 10px auto;
+  /* margin: 0px auto 10px auto; */
   background-color: none;
 }
 
@@ -38,7 +55,11 @@
   height: 300px;
   width: 300px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #ffffff, rgb(136, 136, 136));
+  background: radial-gradient(
+    circle at 100px 100px,
+    #ffffff,
+    rgb(136, 136, 136)
+  );
   /* position: absolute; */
   top: calc(50% - 20px);
   left: calc(50% - 20px);
@@ -53,8 +74,7 @@
   width: 250px;
   height: 250px;
   font-size: 136px;
-  box-shadow:
-    0 0 60px 30px #1b83c9;
+  box-shadow: 0 0 60px 30px #1b83c9;
 }
 
 .smallBall {
@@ -67,6 +87,7 @@
 }
 
 #drawButton {
+  margin-top: 20px;
   font-size: 32px;
   padding: 10px 20px;
   font-weight: bolder;
@@ -76,11 +97,15 @@
   border-radius: 5%;
 }
 
+#drawButton:hover {
+  background-color: #14a70f;
+}
+
 .shadow {
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-  }
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
 
 #dn {
   display: flex;
@@ -99,7 +124,7 @@
   color: #66bfe2;
 }
 
-#linkedin{
-    text-decoration: none;
-    color: #d3f1fd
+#linkedin {
+  text-decoration: none;
+  color: #d3f1fd;
 }
