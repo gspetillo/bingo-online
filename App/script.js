@@ -46,6 +46,7 @@ function drawNumber() {
     );
     audio.play();
     drawButton.innerHTML = "Sortear (" + numbers.length + ")";
+    document.title = "Bingo Online (" + numbers.length + ")";
   } else {
     drawButton.disabled = true;
   }
