@@ -1,0 +1,147 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 110vh;
+  text-align: center;
+  background-color: #0e4597;
+}
+
+#navbar {
+  width: 100%;
+}
+
+#navbar ul {
+  height: 30px;
+  background-color: #092f68;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#navbar ul a {
+  color: #fff;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 40px;
+  align-items: center;
+}
+
+#logo {
+  width: 75px;
+  border: 2px solid #58d3e9;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 54px;
+  color: #fff;
+  /* margin: 0px auto 10px auto; */
+  background-color: none;
+}
+
+.ball {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.circle {
+  /* display: block; */
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  background: radial-gradient(
+    circle at 100px 100px,
+    #ffffff,
+    rgb(136, 136, 136)
+  );
+  /* position: absolute; */
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.bigBall {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  font-size: 136px;
+  box-shadow: 0 0 60px 30px #1b83c9;
+}
+
+.smallBall {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  color: #000;
+}
+
+#drawButton {
+  margin-top: 20px;
+  font-size: 32px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #1dcf17;
+  border: none;
+  border-radius: 5%;
+}
+
+#drawButton:hover {
+  background-color: #14a70f;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#dn {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 40%;
+  margin: 40px;
+  color: #0e4597;
+}
+
+#credits {
+  text-align: center;
+  font-weight: 600;
+  color: #66bfe2;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: #d3f1fd;
+}
