@@ -2,6 +2,7 @@
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
 a {
@@ -20,6 +21,7 @@ a {
 
 #navbar {
   width: 100%;
+  font-weight: 600;
 }
 
 #navbar ul {
@@ -32,6 +34,10 @@ a {
 
 #navbar ul a {
   color: #fff;
+}
+
+#navbar ul a:hover {
+  color: #1dcf17;
 }
 
 #header {
@@ -123,7 +129,6 @@ a {
 #card tr th {
   font-weight: 900;
   padding: 15px 30px;
-  background-color: #fff;
   background-image: none;
   color: #092f68;
   break-inside: avoid;
@@ -131,7 +136,6 @@ a {
 
 #card tr td {
   padding: 15px 30px;
-  background-color: #fff;
   background-image: none;
   break-inside: avoid;
 }
