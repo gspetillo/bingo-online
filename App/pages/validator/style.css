@@ -1,0 +1,129 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: #0e4597;
+}
+
+#navbar {
+  width: 100%;
+  font-weight: 600;
+}
+
+#navbar ul {
+  height: 30px;
+  background-color: #092f68;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#navbar ul a {
+  color: #fff;
+}
+
+#navbar ul a:hover{
+  color: #1dcf17;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 40px;
+  align-items: center;
+}
+
+#logo {
+  width: 75px;
+  border: 2px solid #58d3e9;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 54px;
+  color: #fff;
+  /* margin: 0px auto 10px auto; */
+  background-color: none;
+}
+
+#credits {
+  text-align: center;
+  font-weight: 600;
+  color: #66bfe2;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: #d3f1fd;
+}
+
+#validation-form {
+  margin: 50px 20px;
+}
+
+#validation-form form input {
+  width: 550px;
+  background-image: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 3px solid #1dcf17;
+}
+
+#validation-form form input:hover,
+#validation-form form input:focus {
+  outline: none;
+  border: 3px solid #14a70f;
+}
+
+#validation-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#validate-cards-button {
+  width: 75%;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #1dcf17;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  border: none;
+  border-radius: 5%;
+}
+
+#validate-cards-button:hover {
+  background-color: #14a70f;
+}
+
+input{
+  margin: 5px 0;
+}
+
+#hash-output{
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:#fff;
+}
+
+#hash-output:hover{
+  color: #ccc;
+}
