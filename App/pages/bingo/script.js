@@ -1,6 +1,7 @@
 var drawn = document.getElementById("drawn");
 var drawButton = document.getElementById("drawButton");
 var dn = document.getElementById("dn");
+var app = document.getElementById('app');
 
 var numbers = Array.from({ length: 75 }, (_, i) => i + 1);
 
@@ -50,4 +51,5 @@ function drawNumber() {
   } else {
     drawButton.disabled = true;
   }
+  app.style.height = "100%";
 }
