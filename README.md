@@ -43,7 +43,7 @@ Project to develop an online bingo website, with raffle, card generation, valida
 4. Push your commits to your repo
     
     ```ps
-    git push  <REMOTENAME> <BRANCHNAME>
+    git push your_remote_name your_branch_name
     ```
 
 5. Open a Pull Request on the main repo
