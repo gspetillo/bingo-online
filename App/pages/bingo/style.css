@@ -14,13 +14,14 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 110vh;
+  height: 100%;
   text-align: center;
   background-color: #0e4597;
 }
 
 #navbar {
   width: 100%;
+  font-weight: 600;
 }
 
 #navbar ul {
@@ -33,6 +34,10 @@ a {
 
 #navbar ul a {
   color: #fff;
+}
+
+#navbar ul a:hover{
+  color: #1dcf17;
 }
 
 #header {
