@@ -12,6 +12,10 @@ function generateCards() {
   app.style.backgroundColor = "#fff";
   app.style.backgroundImage = "flex";
 
+
+  date = new Date()
+  document.title = `Cartelas - Bingo Online - ${date.toLocaleString('pt-br')}`;
+
   for (let i = 0; i < cardCount; i++) {
     numsB = Array.from({ length: 15 }, (_, i) => i + 1);
     numsI = Array.from({ length: 15 }, (_, i) => i + 16);
