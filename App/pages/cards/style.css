@@ -124,6 +124,8 @@ a {
   margin: 11px 10px;
   color: #000;
   break-inside: avoid;
+  font-size: 50px; 
+  padding: 50px
 }
 
 #card tr th {
